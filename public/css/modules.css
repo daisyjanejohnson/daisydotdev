@@ -1,0 +1,282 @@
+
+/* Header */
+header {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width:100%;
+  background: #161415 url(../assets/seth-betterly-4oH_nKw7e0g-unsplash.jpg) no-repeat top center;
+  background-size: cover !important;
+    -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+header:before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0, auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+  font: 90px/1.1em 'arial';
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0,0,0,.8);
+}
+header .banner-text h3 {
+  font: 18px/1.9em 'arial';
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+header .banner-text h3 span,
+header .banner-text h3 a {
+  color: #fff;
+}
+header .banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #2F2D2E;
+  border-color: rgba(150, 150, 150, .1);
+}
+
+
+/* Navigation */
+
+#nav-bar ul, #nav-bar li, #nav-bar a {
+  margin:0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+#nav-bar {
+  font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+
+  /* center align the menu */
+  text-align: center;
+}
+
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+     display: inline-block;
+     padding: 8px 13px;
+     line-height: 32px;
+    text-decoration: none;
+     text-align: left;
+     color: #fff;
+  
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  
+  ul#nav li a:active { background-color: transparent !important; }
+  ul#nav li.current a { color: #F06000; }
+
+
+
+.card{
+  background-color: pink;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 1em;
+}
+.card h1,.card h3{
+  margin-bottom: .5em;
+}
+.card p {
+  line-height: 1.25em;
+  margin: auto;
+}
+.social{
+  margin: 1em auto ;
+}
+.social-link{
+  color: #fff;
+}
+.social-link:hover{
+  color: #ff6600;
+  transition: ease-in 250ms;
+}
+
+/* About  */
+
+
+#aboutme{
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#aboutme a, #aboutme a:visited  { color: #fff; }
+#aboutme a:hover, #aboutme a:focus { color: #11ABB0; }
+
+#aboutme .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+#aboutme h2 {
+  font: 22px 'arial';
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#aboutme p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+#aboutme .main-col { padding-right: 5%; }
+
+#aboutme .social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,.8);
+}
+#aboutme .social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+
+/* Resume */
+
+#resume {
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+
+}
+
+#resume h1 {
+  font: 18px/24px 'arial';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#resume h1 span {
+  border-bottom: 3px solid #c069e2;
+  padding-bottom: 6px;
+}
+
+#resume h3 {
+  font: 25px/30px;
+}
+
+#resume .header-col{
+  padding-top: 9px;
+}
+#resume .main-col {
+  padding-right: 15%;
+}
+
+.education, .work {
+  margin-bottom: 48px;
+  padding-bottom:  24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#resume .info{
+  font: 16px/24px;
+  color: #7a7a7a;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+
+#resume .info span{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#resume .date {
+  font: 15px/24px;
+  margin-top: 6px;
+}
+
+/* Default */
+
+.row {
+  width:96%;
+  max-width: 1020px;
+  margin: 0 auto;
+
+}
+
+.narrow .row { max-width: 980px;} 
+
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+
+.row:before,
+.row:after {
+  content: '';
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.column, .columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+.column.centered, .columns.centered  {
+   float: none;
+   margin: 0 auto;
+}
+
+/* column widths */
+.row .one         { width: 8.33333%; }
+.row .two         { width: 16.66667%; }
+.row .three       { width: 25%; }
+.row .four        { width: 33.33333%; }
+.row .five        { width: 41.66667%; }
+.row .six         { width: 50%; }
+.row .seven       { width: 58.33333%; }
+.row .eight       { width: 66.66667%; }
+.row .nine        { width: 75%; }
+.row .ten         { width: 83.33333%; }
+.row .eleven      { width: 91.66667%; }
+.row .twelve      { width: 100%; }
