@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/daisydotdev/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/daisydotdev/static/js/main.4e1d8ff7.chunk.js",
+    "main.js.map": "/daisydotdev/static/js/main.4e1d8ff7.chunk.js.map",
+    "runtime-main.js": "/daisydotdev/static/js/runtime-main.af589976.js",
+    "runtime-main.js.map": "/daisydotdev/static/js/runtime-main.af589976.js.map",
+    "static/js/2.a57231a3.chunk.js": "/daisydotdev/static/js/2.a57231a3.chunk.js",
+    "static/js/2.a57231a3.chunk.js.map": "/daisydotdev/static/js/2.a57231a3.chunk.js.map",
+    "static/js/3.513e4ec0.chunk.js": "/daisydotdev/static/js/3.513e4ec0.chunk.js",
+    "static/js/3.513e4ec0.chunk.js.map": "/daisydotdev/static/js/3.513e4ec0.chunk.js.map",
+    "index.html": "/daisydotdev/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/daisydotdev/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.a57231a3.chunk.js.LICENSE.txt": "/daisydotdev/static/js/2.a57231a3.chunk.js.LICENSE.txt",
+    "static/media/prof.ca71f916.jpg": "/daisydotdev/static/media/prof.ca71f916.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af589976.js",
+    "static/js/2.a57231a3.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.4e1d8ff7.chunk.js"
+  ]
+}
